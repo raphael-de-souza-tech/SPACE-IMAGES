@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- ICON -->
+    <link rel="icon" href="./IMG/space-icon.png" type="image/x-icon">
+    <!-- LIBRARY SWIPER -->
+    <!-- Linking Google fonts for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <title>SPACE IMAGES</title>
+</head>
+<body>
+    <!-- 🟢 NAV BAR 🟢 -->
+    <header>
+        <nav id="navbar">
+            <a href="#" class="nav-brand">SPACE IMAGES</a>
+            <ul class="nav-list" >
+                <li class="nav-item" >
+                    <a href="https://github.com/raphael-de-souza-tech" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/raphael-de-souza-8742b61b1/" target="_blank">Linkedin</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+     <!--⛔ ⛔  -->
+    <main>
+         <!-- 🟢 CARD  SWIPER 🟢 -->
+         <div class="container swiper">
+            <div class="card-wrapper">
+              <!-- Card slides container -->
+              <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                  <a href="https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/" target="_blank" class="card-link">
+                    <img src="./IMG/img-01.webp" alt="Card Image" class="card-image">
+                    <p class="badge badge-basic">Galáxia M31</p>
+                    <h2 class="card-title">M31, também conhecida como Galáxia de Andrômeda, é uma galáxia espiral barrada localizada a cerca de 2,5 milhões de anos-luz da Terra, na constelação de Andrômeda. É a galáxia principal mais próxima da Via Láctea e pode ser vista a olho nu em áreas com pouca poluição luminosa. </h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                  </a>
+                </li>
+                <li class="card-item swiper-slide">
+                  <a href="https://nozetina.artstation.com/projects/e0Yb3X" class="card-link" target="_blank">
+                    <img src="./IMG/img-02.jpg" alt="Card Image" class="card-image">
+                    <p class="badge badge-inter">Quasar TON 618</p>
+                    <h2 class="card-title">TON 618 é o nome de um quasar extremamente luminoso e um buraco negro supermassivo, considerado o maior conhecido até o momento. Este objeto cósmico está localizado a cerca de 10,4 bilhões de anos-luz da Terra, na constelação de Canes Venatici. A massa do buraco negro em TON 618 é estimada em 66 bilhões de vezes a massa do Sol. </h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                  </a>
+                </li>
+                <li class="card-item swiper-slide">
+                  <a href="https://pt.wikipedia.org/wiki/NGC_6960" class="card-link" target="_blank">
+                    <img src="./IMG/img-03.jpg" alt="Card Image" class="card-image">
+                    <p class="badge badge-adv">Nebulosa NGC 6960</p>
+                    <h2 class="card-title">NGC 6960 é um remanescente de supernova na direção da constelação de Cygnus. O objeto foi descoberto pelo astrônomo William Herschel em 1784, usando um telescópio refletor com abertura de 18,6 polegadas. Dado o seu formato também é conhecida como Nebulosa do Véu ou Nebulosa Vassoura de Bruxa</h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                  </a>
+                </li>
+                <li class="card-item swiper-slide">
+                  <a href="https://www.primevideo.com/-/pt/detail/Interestelar/0PUNMGZEWOMYFKR1XIGOLTL2YM" class="card-link" target="_blank">
+                    <img src="./IMG/img-04.jpg" alt="Card Image" class="card-image">
+                    <p class="badge badge-vip">Interestelar</p>
+                    <h2 class="card-title">Nessa profunda obra espacial de Christopher Nolan, Mathew McConaughey e Anne Hathaway juntam-se a Jessica Chastain, Ellen Burstyn e Michael Caine na renomada tripulação de uma equipe de exploração do espaço que realiza o impossível ao viajar por um buraco de minhoca recém-descoberto, ultrapassando os limites das viagens espaciais humanas e entrando numa dimensão completamente diferente.</h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                  </a>
+                </li>
+                <li class="card-item swiper-slide">
+                  <a href="https://theconversation.com/os-100-anos-da-descoberta-de-que-a-via-lactea-e-apenas-uma-das-muitas-galaxias-do-universo-244376" class="card-link" target="_blank">
+                    <img src="./IMG/via-lactea.avif" alt="Card Image" class="card-image">
+                    <p class="badge badge-editor">Via Láctea</p>
+                    <h2 class="card-title">A Via Láctea é a galáxia onde está localizado o Sistema Solar, e onde vivemos. É uma galáxia espiral com um diâmetro estimado de cerca de 100.000 anos-luz. Ela contém bilhões de estrelas, poeira e gás, além de corpos celestes como planetas e asteróides. </h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                  </a>
+                </li>
+              </ul>
+        
+               <!-- PAGINAÇÃO -->
+              <div class="swiper-pagination"></div>
+              <!-- BOTÕES DE NAVEGAÇÃO -->
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div> 
+          
+    </main>
+    
+    <footer>
+        
+    </footer>
+    <!--🟢 LINK JS 🟢  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+
+
+
+
+         <!--⛔ ⛔  -->
+    </main>
+    <script src="./app.js"></script>
+    <!-- SWIPER LIBRARY JS ⬇⬇ -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
